@@ -10,14 +10,14 @@ function quicksort(array) {
 
         var index = partition(array, low, high);
 
-        if (index - 1 > left) {
+        if (index - 1 > low) {
             stack.push(low);
             stack.push(index - 1);
         }
 
-        if (index + 1 < right) {
+        if (index + 1 < high) {
             stack.push(index + 1);
-            stack.push(right);
+            stack.push(high);
         }
     }
 
