@@ -1,4 +1,8 @@
 function quicksort(array) {
+    if (array.length <= 1) {
+        return array;
+    }
+    
     var stack = [];
 
     stack.push(0);
