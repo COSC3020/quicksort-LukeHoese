@@ -20,3 +20,8 @@ all n elements of the subarray. The worst case for the algorithm would be a data
 the pivot chose was always the smallest/largest element. Essentially at each step only the pivot would end up sorted,
 and the resulting subarrays would be of size n-1, and 0. This means that you would have to repeat the iteration over n
 elements n times, giving the worst case time complexity of: $\Theta$(n^2)
+
+Initial research on stack overflow led me to the idea of using an explicit stack, which I then had chatGPT's help implementing
+Algorithm was adpated from recursive code given in lecture
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
