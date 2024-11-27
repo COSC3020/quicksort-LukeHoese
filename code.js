@@ -35,7 +35,7 @@ function partition(array, low, high) {
         }
     }
 
-    [array[x + 1], array[high]] = [array[right], array[x + 1]];
+    [array[x + 1], array[high]] = [array[high], array[x + 1]];
 
     return x + 1;
 }
